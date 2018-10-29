@@ -1,0 +1,14 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>TEXT</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let fact of facts">
+      <td>{{fact._id}}</td>
+      <td>{{fact.text}}</td>
+    </tr>
+  </tbody>
+</table>
