@@ -6,7 +6,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let fact of facts">
+    <tr *ngFor="let fact of facts" (click)="consulter(fact._id)">
       <td>{{fact._id}}</td>
       <td>{{fact.text}}</td>
     </tr>
